@@ -1,6 +1,6 @@
 # Web3.js - HTTP Provider Example
 
-An example script on Kaleido using[Web3.js](https://github.com/ethereum/web3.js "Web3.js Github"). This demonstrates how to connect to a Kaleido node using basic auth via HTTP and retrieves the latest block in the chain.
+An example script on Kaleido using [Web3.js](https://github.com/ethereum/web3.js "Web3.js Github"). This demonstrates how to connect to a Kaleido node using basic auth via HTTP and retrieves the latest block in the chain.
 
 ## Requirements
 1. [Node & NPM](https://nodejs.org/en/)
