@@ -13,20 +13,19 @@ namespace Application
         static string RPC_ENDPOINT = "";
         static string USER = "";
         static string PASS = "";
-        static string ACCOUNT_ADDRESS = "";
 
-        static decimal balance;
+        static Nethereum.Hex.HexTypes.HexBigInteger latestBlockNumber;
 
         static void Main(string[] args)
         {
-            // Call an async function to set the balance and Wait on it to return
-            getEthBalance().Wait();
+            // Call an async function to set the latest block number and Wait on it to return
+            getLatestBlockNumber().Wait();
 
-            // Print the balance once the getEthBalance() function returns
-            System.Diagnostics.Debug.Write("Account Balance: " + balance + " ether \n");
+            // Print the latest block number once the getLatestBlockNumber() function returns
+            System.Diagnostics.Debug.Write("Latest Block: #" + latestBlockNumber.Value + "\n");
         }
 
-        static async Task getEthBalance() 
+        static async Task getLatestBlockNumber()
         {
             // Encode App Credentials as <username>:<password>
             var byteArray = Encoding.ASCII.GetBytes(USER + ":" + PASS);
@@ -37,11 +36,9 @@ namespace Application
             var web3 = new Web3(client);
 
             //Now we can test the connection by calling some basic function
-            // Get the account balance of my account
-            var some = await web3.Eth.GetBalance.SendRequestAsync(ACCOUNT_ADDRESS);
+            // Get the latest block number in the chain
+            latestBlockNumber = await web3.Eth.Blocks.GetBlockNumber.SendRequestAsync();
 
-            // Set variable for use in other places
-            balance = Web3.Convert.FromWei(some.Value);
         }
     }
 }
