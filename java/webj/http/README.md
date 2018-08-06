@@ -1,6 +1,6 @@
-# Quorum Example Application
+# WebJ Example Application
 
-A simple example application that retrieves the version of a Quorum client node.
+A simple example application that retrieves the latest block in the chain. 
 
 ## Requirements
 
@@ -8,7 +8,7 @@ A simple example application that retrieves the version of a Quorum client node.
 2. Maven
 
 ## Steps
-1. In src/main/java/App.java:
+1. In src/main/java/kaleido/App.java:
    + Replace the username and password with your basic auth credentials.
    + Replace the RPC hostname with your RPC hostname.
 2. Run the application.
