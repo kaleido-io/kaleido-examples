@@ -25,7 +25,7 @@ public final class App {
 
 	public static void main(String[] args) {
 		try {
-			// Build an Authorixation header using your app credentials
+			// Build an Authorization header using your app credentials
 			OkHttpClient.Builder clientBuilder = new OkHttpClient.Builder();
 			clientBuilder.authenticator(new Authenticator() {
 			    @Override public Request authenticate(Route route, Response response) throws IOException {
