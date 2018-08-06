@@ -18,10 +18,10 @@ import okhttp3.Response;
 import okhttp3.Route;
 
 public final class App {
-	// Fill these in to test
-	private static final String USER = "";
-	private static final String PASS = "";
-	private static final String RPC_ENDPOINT = ""; // With https://
+	// Fill these in to test, ex. remove @RPC_ENDPOINT@
+	private static final String USER = "@USER@";
+	private static final String PASS = "@PASS@";
+	private static final String RPC_ENDPOINT = "@RPC_ENDPOINT@"; // With https://
 
 	public static void main(String[] args) {
 		try {

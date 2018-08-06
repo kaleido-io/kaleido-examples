@@ -10,10 +10,10 @@ namespace Application
 {
     class Program
     {
-        // Fill these in to test
-        static string RPC_ENDPOINT = "";
-        static string USER = "";
-        static string PASS = "";
+        // Fill these in to test, ex. remove @RPC_ENDPOINT@
+        static string RPC_ENDPOINT = "@RPC_ENPOINT@";
+        static string USER = "@USER@";
+        static string PASS = "@PASS";
 
         static Nethereum.Hex.HexTypes.HexBigInteger latestBlockNumber;
 

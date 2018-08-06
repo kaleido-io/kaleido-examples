@@ -1,8 +1,9 @@
 const Web3 = require('web3');
 
-let USER = "";
-let PASS = "";
-let RPC_ENDPOINT = ""; // Remove the leading https://
+// Fill these in to test, ex. remove @RPC_ENDPOINT@
+let USER = "@USER@";
+let PASS = "@PASS@";
+let RPC_ENDPOINT = "@RPC_ENDPOINT_NO_PRE@"; // Remove the leading https://
 
 
 // HTTP Provider Example

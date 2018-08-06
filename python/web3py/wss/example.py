@@ -6,10 +6,10 @@ from web3.middleware import geth_poa_middleware
 
 # TESTED WITH python 3.6
 
-# Add your app credentials and Websocket endpoint here
-USER = ""
-PASS = ""
-WSS_ENDPOINT = ""
+# Fill these in to test, ex. remove @WSS_ENDPOINT@
+USER = "@USER@"
+PASS = "@PASS@"
+WSS_ENDPOINT = "@WSS_ENDPOINT@"
 
 # Encode the username and password from the app creds into USER:PASS base64 encoded string
 auth = USER + ":" + PASS

@@ -1,9 +1,9 @@
 const ethers = require('ethers');
 
-// Fill these in to test
-let USER = "";
-let PASS = "";
-let RPC_ENDPOINT = "";
+// Fill these in to test, ex. remove @RPC_ENDPOINT@
+let USER = "@USER@";
+let PASS = "@PASS@";
+let RPC_ENDPOINT = "@RPC_ENDPOINT@"; // With https://
 
 // HTTP Provider Example
 let url = {url: RPC_ENDPOINT, user: USER, password: PASS};

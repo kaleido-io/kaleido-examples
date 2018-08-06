@@ -1,8 +1,9 @@
 const Web3 = require('web3');
 
-let USER = "";
-let PASS = "";
-let WSS_ENDPOINT = ""; // Remove the leading wss://
+// Fill these in to test, ex. remove @WSS_ENDPOINT@
+let USER = "@USER@";
+let PASS = "@PASS@";
+let WSS_ENDPOINT = "@WSS_ENDPOINT_NO_PRE@"; // Remove the leading wss://
 
 
 // Web Socket Example
