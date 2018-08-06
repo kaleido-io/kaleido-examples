@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>fulton</groupId>
-  <artifactId>shoolton</artifactId>
+  <groupId>kaleido</groupId>
+  <artifactId>kaleido-webj-example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>shoolton</name>
+  <name>kaleido-webj-example</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -25,8 +25,8 @@
     </dependency>
     <dependency>
     	<groupId>org.web3j</groupId>
-    	<artifactId>quorum</artifactId>
-    	<version>0.8.0</version>
+    	<artifactId>core</artifactId>
+    	<version>3.4.0</version>
     </dependency>
   </dependencies>
 </project>

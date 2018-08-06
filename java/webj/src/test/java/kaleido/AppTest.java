@@ -1,4 +1,4 @@
-package kaleido.quorum;
+package kaleido;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
