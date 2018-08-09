@@ -17,3 +17,4 @@ An example application on Kaleido using the web3 Java library. This demonstrates
 ## Walkthrough GIF
 
 ![WebJ Example Gif](../WebjExample.gif "WebJ Example GIF")
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/java/webj/http/WebjExample.gif">Open GIF</a>

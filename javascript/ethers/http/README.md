@@ -16,3 +16,4 @@ An example script on Kaleido using [Ethers.js](https://github.com/ethers-io/ethe
 ## Walkthrough GIF
 
 ![EthersExample Gif](./EthersjsExample.gif "Ethers Example GIF")
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/javascript/ethers/http/EthersjsExample.gif">Open GIF</a>

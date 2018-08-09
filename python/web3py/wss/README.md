@@ -18,3 +18,4 @@ An example application on Kaleido using the web3 python library. This demonstrat
 
 NOTE: This gif shows the http example; however, the steps and output are the same.
 ![Web3.py Example Gif](../Web3pyExample.gif "Web3.py Example GIF")
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/python/web3py/Web3pyExample.gif">Open GIF</a>

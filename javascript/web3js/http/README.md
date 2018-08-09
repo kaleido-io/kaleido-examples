@@ -16,3 +16,4 @@ An example script on Kaleido using [Web3.js](https://github.com/ethereum/web3.js
 ## Walkthrough GIF
 
 ![Web3.js Example Gif](../Web3jsExample.gif "Web3.js Example GIF")
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/javascript/web3js/Web3jsExample.gif">Open GIF</a>
