@@ -11,5 +11,5 @@ A simple bash script using the raw JSON/RPC API to connect to a Kaleido node and
 
 
 ## Walkthrough GIF
-
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/walkthrough-gifs/bash/http/BashScriptExample.gif" target="_blank">Open GIF in a new tab</a>
 ![BashScriptExample Gif](./BashScriptExample.gif "Bash Example GIF")
