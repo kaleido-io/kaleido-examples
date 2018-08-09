@@ -12,5 +12,5 @@ experience makes understanding each language and framework trivial when one unde
 a single language/framework/protocol scenario.
 
 # Contributing
-Contributions are welcome if we do not already have an example for your framework or
+Contributions are welcome and encouraged! If we do not already have an example for your framework or
 language. Just make sure to follow the scheme described above!

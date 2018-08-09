@@ -12,3 +12,8 @@ An example application on Kaleido using Nethereum. This demonstrates how to conn
     + Replace the `@USER@` placeholder with the basic auth credentials username.
     + Replace the `@PASS` placeholder with the basic auth credentials password.
 2. Run the program in Debug mode and open the application output window to see the latest block number.  If you do NOT run in Debug mode, the program will be unable to print output.  
+
+## Walkthrough GIF
+
+NOTE: This gif shows the geth example; however, the steps and output are the same.
+![NethereumExample Gif](../NethereumExample.gif "Nethereum Example GIF")

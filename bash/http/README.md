@@ -8,3 +8,8 @@ A simple bash script using the raw JSON/RPC API to connect to a Kaleido node and
    + Replace the `@USER@` placeholder with the basic auth credentials username.
    + Replace the `@PASS` placeholder with the basic auth credentials password.
 2. Save the file and run `./example.sh` to drive the call.
+
+
+## Walkthrough GIF
+
+![BashScriptExample Gif](./BashScriptExample.gif "Bash Example GIF")
