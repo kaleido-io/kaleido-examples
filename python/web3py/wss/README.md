@@ -11,4 +11,5 @@ An example application on Kaleido using the web3 python library. This demonstrat
     + Replace the `@USER@` placeholder with the basic auth credentials username.
     + Replace the `@PASS` placeholder with the basic auth credentials password.
 2. Save the file, and from the web3py/wss/ subdirectory run `pipenv install --skip-lock` to install the project dependencies.
-3. Run `python example.py` to drive the program.
+3. Run `pipenv shell` to activate the virtual environment
+4. Run `python example.py` to drive the program.
