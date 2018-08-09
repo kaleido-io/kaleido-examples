@@ -11,3 +11,8 @@ An example application on Kaleido using Nethereum. This demonstrates how to conn
    + Replace the RPC hostname with your RPC hostname.
    + Replace the username and password with your basic auth credentials.
 2. Run the program in Debug mode and open the application output window to see the latest block number.  If you do NOT run in Debug mode, the program will be unable to print output.  
+
+## Walkthrough GIF
+
+![NethereumExample Gif](../NethereumExample.gif "Nethereum Example GIF")
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/c#/netherum/geth/NethereumExample.gif">Open GIF</a>

@@ -12,3 +12,8 @@ An example script on Kaleido using [Ethers.js](https://github.com/ethers-io/ethe
     + Replace the `@PASS@` placeholder with the basic auth credentials password.
 2. Save the file and from the ethers/http subdirectory run `npm install` to install the node modules for the project.
 3. From the same directory, run `node index.js` to drive the program.
+
+## Walkthrough GIF
+
+![EthersExample Gif](./EthersjsExample.gif "Ethers Example GIF")
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/javascript/ethers/http/EthersjsExample.gif">Open GIF</a>
