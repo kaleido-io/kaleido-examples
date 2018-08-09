@@ -15,4 +15,4 @@ An example application on Kaleido using Nethereum. This demonstrates how to conn
 ## Walkthrough GIF
 
 ![NethereumExample Gif](../NethereumExample.gif "Nethereum Example GIF")
-<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/c#/netherum/geth/NethereumExample.gif">Open GIF</a>
+<a href="https://raw.githubusercontent.com/kaleido-io/kaleido-examples/master/c%23/nethereum/NethereumExample.gif">Open GIF</a>
