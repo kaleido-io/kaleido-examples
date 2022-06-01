@@ -1,10 +1,13 @@
 const Web3 = require('web3');
+const https = require('https');
+
+const web3Agent = https.Agent({ keepAlive: true, maxSockets: 5 });
+const options = { agent: { https: web3Agent }};
 
 // Fill these in to test, ex. remove @RPC_ENDPOINT@
 let USER = "@USER@";
 let PASS = "@PASS@";
 let RPC_ENDPOINT = "@RPC_ENDPOINT_NO_PRE@"; // Remove the leading https://
-
 
 // HTTP Provider Example
 // NOTE: The HTTP Provider is deprecated, as it won't work for subscriptions.
@@ -12,7 +15,7 @@ let RPC_ENDPOINT = "@RPC_ENDPOINT_NO_PRE@"; // Remove the leading https://
 
 let nodeUrl = "https://" + USER + ":" + PASS + "@" + RPC_ENDPOINT;
 
-let provider = new Web3.providers.HttpProvider(nodeUrl);
+let provider = new Web3.providers.HttpProvider(nodeUrl, options);
 let web3 = new Web3(provider);
 
 // Now you can call web3 functions, so we'll just test the connection by getting the latest block in the chain.
